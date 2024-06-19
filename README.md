@@ -24,12 +24,15 @@ View a 5-day weather forecast to help plan your activities.
 3. Translation Services:
 Enter the text you want to translate and select the target language.
 Use the translated text to communicate effectively at your destination.
-API Integration
+
+# API Integration
 FindWay uses several third-party APIs to fetch real-time data:
 
 4. Currency Exchange API: 
 Provides up-to-date exchange rates for various currencies.
-Weather API: Offers current weather conditions and forecasts.
+
+5. Weather API: 
+Offers current weather conditions and forecasts.
 Translation API: Translates text to different languages.
 
 # Contributing
