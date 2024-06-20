@@ -1,0 +1,61 @@
+.hero-section {
+  background: linear-gradient(135deg, #ffafcc 0%, #f0d6ff 100%);
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 60px;
+  color: #0d1b2a;
+  height: 80vh;
+  background-size: cover;
+}
+
+.hero-section h1 {
+  font-size: 46px;
+  font-weight: bold;
+  font-family: climate crisis;
+}
+
+.hero-section p {
+  font-size: 20px;
+}
+
+.hero-section .btn {
+  margin: 10px 10px 10px 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 48px;
+}
+
+.hero-section .primarybtn {
+  margin: 10px 10px 10px 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #0d1b2a;
+  color: #ffafcc;
+  border-radius: 48px;
+}
+
+.hero-form {
+  background: rgba(255, 255, 255, 0.55);
+  padding: 20px;
+  border-radius: 10px;
+  height: 64vh;
+  width: 90%;
+}
+
+.hero-form .form-group {
+  margin-bottom: 24px;
+}
+
+.hero-form .btn-dark {
+  width: 100%;
+  background-color: #f0d6ff00;
+  border-color: #0d1b2a;
+  color: #0d1b2a;
+  height: 56px;
+}
+
+.hero-form .form-control {
+  height: 56px;
+  border-radius: 16px;
+  color: #0d1b2a57;
+}

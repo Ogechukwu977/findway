@@ -1,0 +1,37 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#whyfindway {
+  background-color: #ffc8dd;
+  border-top-left-radius: 56px;
+  border-top-right-radius: 56px;
+  padding-left: 148px;
+  padding-right: 148px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 0; /* Ensure it overlaps the hero section */
+  height: 80vh;
+  width: 100;
+  margin-top: -50px;
+}
+
+#whyfindway .text {
+  flex: 1;
+  color: #0d1b2a;
+  margin-bottom: 400px;
+}
+
+#whyfindway .image {
+  flex: 1;
+  text-align: right;
+}
+
+#whyfindway img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

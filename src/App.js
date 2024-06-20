@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { CustomNavbar } from "./Component/navbar";
+import { HeroSection } from "./hero";
+import { WhyFindWay } from "./whyfindway";
+import { Features } from "./Features";
+import { CustomFooter } from "./Component/Footer";
+import { Home } from "./Menu/home";
+import { Blog } from "./Menu/blog";
+import { About } from "./Menu/about";
+import { ContactUs } from "./Menu/contact";
+import { Signup } from "./Menu/signup";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CustomNavbar />
+      <HeroSection />
+      <WhyFindWay />
+      <Features />
+      <CustomFooter />
     </div>
   );
 }
